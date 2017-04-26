@@ -38,7 +38,7 @@ var appController = (function(){
 			setBestScore(score);
 			document.getElementById('best-score').innerHTML = getBestScore();
 		}
-		if(s === 128 && !flag){
+		if(s === 1048 && !flag){
 			flag = true;
 			alert('You Won!');
 		}
